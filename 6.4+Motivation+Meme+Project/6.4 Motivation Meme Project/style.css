@@ -1,0 +1,30 @@
+body {
+    background: #000;
+    color: white;
+}
+
+img {
+    width: 100%;
+    border: 3px solid white;
+}
+
+.wrapper {
+    margin: 5% 20%;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+}
+@media (max-width:600px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: .8rem;
+    }
+}

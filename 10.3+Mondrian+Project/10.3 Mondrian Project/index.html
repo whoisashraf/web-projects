@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      width: 748px;
+      height: 748px;
+      background: #F0F1EC;
+    }
+    .red{
+      width: 320px;
+      height: 414px;
+      background-color: #E72F24;
+      border: 5px solid black;
+      border-left:0 ;
+      border-top: 0;
+      border-bottom: 0;
+    }
+    .o-white{
+      height: 314px;
+      width: 325px;
+      border: 5px solid black;
+      border-left: 0;
+    }
+    .white{
+      height: 314px;
+      width: 370px;
+      border: 5px solid black;
+      border-left: 0;
+    }
+    .r2-wrapper{
+      display: flex;
+    }
+    .blue{
+      width: 50px;
+      height: 130px;
+      border: 5px solid black;
+      background: #004592;
+      border-left: 0;
+      border-bottom: 10px solid;
+    }
+    .h-white{
+      height: 20px;
+      width: 320px;
+      border: 5px solid black;
+      border-left: 0;
+      border-top: 0;
+      border-bottom: 0;
+    }
+    .r3-wrapper{
+      display: flex;
+    }
+    .yellow{
+      height: 20px;
+      width: 206px;
+      border: 5px solid black;
+      background:#F9D01E;
+      border-left: 0;
+      border-top: 0;
+      border-bottom: 0;
+    }
+    .grey{
+      height: 20px;
+      width: 153px;
+      border: 5px solid black;
+      background:grey;
+      border-left: 0;
+      border-top: 0;
+      border-bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="red"></div>
+    <div class="r2-wrapper">
+      <div class="o-white"></div>
+      <div class="white"></div>
+      <div class="blue"></div>
+    </div>
+    
+    <div class="r3-wrapper">
+      <div class="h-white"></div>
+      <div class="yellow"></div>
+      <div class="grey"></div>
+    </div>
+  </div>
+</body>
+
+</html>
